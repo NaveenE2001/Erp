@@ -4,7 +4,7 @@
     left: 4%;
     transform: translate(-50%, -50%);
     padding: 15px 48px;
-    color: #131212;
+    color: grey;
     font-weight: bolder;
     background: linear-gradient(to right, #cbdd0f 0, #fff 10%, #868686 20%);
     background-position: 0;
@@ -21,6 +21,12 @@
     text-decoration: underline rgb(230, 225, 225);
     /* Media query for smaller vie wport widths */
     /* Media query for larger viewport widths */
+     @media (max-width: 2000px) {
+        font-size: 4.5vh;
+        margin-left: 6vw;
+        top: 9%;
+        z-index: 1;
+    }
     @media (max-width: 1500px) {
         font-size: 4.5vh;
         margin-left: 6vw;

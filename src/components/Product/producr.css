@@ -1,0 +1,110 @@
+.btn-shine {
+    position: absolute;
+    top: 11%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    padding: 15px 48px;
+    color: #ea0e0e;
+    font-weight: bolder;
+    background: linear-gradient(to right, #cbdd0f 0, #fff 10%, #868686 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 4vh;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    margin-left: 3vw;
+    text-decoration: underline rgb(230, 225, 225);
+    /* Media query for smaller vie wport widths */
+    /* Media query for larger viewport widths */
+    @media (max-width: 1200px) {
+        font-size: 4.4vh;
+        margin-left: 13vw;
+        top: 10%;
+        z-index: 1;
+    }
+    @media (max-width: 900px) {
+        font-size: 4.5vh;
+        margin-left: 5.2rem;
+        top: 10%;
+    }
+    @media (max-width: 600px) {
+        font-size: 4.5 vh;
+        margin-left: 20vw;
+        top: 10%;
+    }
+}
+
+@-moz-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-webkit-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-o-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+.card-entnt {
+    color: #4aeedd;
+    font-size: 2rem;
+    transition: color 0.88s ease-in-out;
+    margin: 1%;
+}
+
+.card-entnt:hover {
+    color: red;
+}
+
+.card-entnt {
+    color: #4aeedd;
+    font-size: 2rem;
+    transition: color 0.88s ease-in-out;
+    margin: 1%;
+}
+
+.card-entnt:hover {
+    color: red;
+}

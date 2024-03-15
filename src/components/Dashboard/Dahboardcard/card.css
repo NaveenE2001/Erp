@@ -1,0 +1,194 @@
+.btn-shine1 {
+    position: absolute;
+    top: 11%;
+    left: 4%;
+    transform: translate(-50%, -50%);
+    padding: 15px 48px;
+    color: #ea0e0e;
+    font-weight: bolder;
+    background: linear-gradient(to right, #cbdd0f 0, #fff 10%, #868686 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 4vh;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    margin-left: 1vw;
+    /* Media query for smaller viewport widths */
+    /* Media query for larger viewport widths */
+    @media (max-width: 1500px) {
+        font-size: 4.4vh;
+        margin-left: 2vw;
+        top: 8%;
+        z-index: 1;
+    }
+    @media (max-width: 1200px) {
+        font-size: 4.4vh;
+        margin-left: 2.3vw;
+        top: 6%;
+        z-index: 1;
+    }
+    @media (max-width: 900px) {
+        font-size: 4.5vh;
+        margin-left: 5.2rem;
+        top: 10%;
+    }
+    @media (max-width: 600px) {
+        font-size: 4.5 vh;
+        margin-left: 10vw;
+        top: 10%;
+    }
+}
+
+@-moz-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-webkit-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-o-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+.btn-shine2 {
+    position: absolute;
+    top: 11%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    padding: 15px 48px;
+    color: #ea0e0e;
+    font-weight: bolder;
+    background: linear-gradient(to right, #cbdd0f 0, #fff 10%, #868686 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 4vh;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: "Poppins", sans-serif;
+    margin-left: 1vw;
+    /* Media query for larger viewport widths */
+    @media (max-width: 1500px) {
+        font-size: 4.4vh;
+        margin-left: 2.3vw;
+        top: 8%;
+        z-index: 1;
+    }
+    @media (max-width: 1200px) {
+        font-size: 5vh;
+        margin-left: 2vw;
+        top: 6.5%;
+        z-index: 1;
+    }
+    @media (max-width: 900px) {
+        font-size: 4.5vh;
+        margin-left: -23rem;
+        top: 96%;
+    }
+    @media (max-width: 700px) {
+        font-size: 5vh;
+        margin-left: -15.5rem;
+        top: 98%;
+    }
+    @media (max-width: 550px) {
+        font-size: 5vh;
+        margin-left: -12rem;
+        top: 100%;
+        z-index: 1;
+    }
+}
+
+@-moz-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-webkit-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-o-keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0;
+    }
+    60% {
+        background-position: 180px;
+    }
+    100% {
+        background-position: 180px;
+    }
+}

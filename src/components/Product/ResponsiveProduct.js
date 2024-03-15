@@ -30,7 +30,7 @@ function ResponsiveProduct() {
         <Grid
           item
           xs={12}
-          sx={{ backgroundColor: "#FFF3C7", marginTop: 3, marginLeft: 3 }}
+          sx={{ backgroundColor: "#FFF3C7", marginTop: 3, marginLeft: 1 }}
         >
           <h2 className="card-entnt">Electonics</h2>
           <Stack direction={"row"}>

@@ -21,10 +21,16 @@
     text-decoration: underline;
     /* Media query for smaller viewport widths */
     /* Media query for larger viewport widths */
+    @media (max-width: 1500px) {
+        font-size: 4.2vh;
+        margin-left: 6vw;
+        top: 7%;
+        z-index: 1;
+    }
     @media (max-width: 1200px) {
         font-size: 4.4vh;
-        margin-left: 12vw;
-        top: 10%;
+        margin-left: 8.5vw;
+        top: 9%;
         z-index: 1;
     }
     @media (max-width: 900px) {
@@ -34,8 +40,13 @@
     }
     @media (max-width: 600px) {
         font-size: 4.5 vh;
-        margin-left: 20vw;
+        margin-left: 18vw;
         top: 10%;
+    }
+    @media (max-width: 400px) {
+        font-size: 3.5 vh;
+        margin-left: 20vw;
+        top: 8%;
     }
 }
 
